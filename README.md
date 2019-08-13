@@ -1,68 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Calculator
 
-## Available Scripts
+This exercise focuses on creating a prototype for a calculator based on two predetermined mockups. The main purpose of the project was to replicate the styling for the calculator as the implementation for the calculation logic was optional. 
 
-In the project directory, you can run:
+# Requirements
 
-### `npm start`
+Implement the front end code and event handlers such that it can be hooked into a calculation processor.\
+The calculator buttons should respond to user interactions.\
+The calculator should be theme-able based on the predetermined mockups and colors that were provided.\
+The calculator works well different viewport sizes.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Execution
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+The calculator was built using React. I decided to use React because I have been eager to work on a small project to gain more experience using React and this was a perfect opportunity to do so. To get started I chose to use [Create React App](https://create-react-app.dev/docs/getting-started) so that I could take advantage of the build setup and then quickly focus on the front code. And though the calculation logic was optional I wanted to try and implement some of the basic functionality. To do this I utilized the [mathjs](https://mathjs.org/) library via npm to tackle the calcultor calculations.
 
-### `npm test`
+# Current Status and To Dos
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The styling for the calculator has been completed, as well as, the ability to switch between to the two themes. The user is also able to interact with all of the buttons and the event handlers are in place. However, when I have more time to work on this project there are a few issues that I discovered that need some additional work. A few of the event handlers and the calculation logic needs to be fine tuned and/or expanded upon to eliminate issues related to using the operators and processing the calculations.
