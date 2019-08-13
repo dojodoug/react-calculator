@@ -1,0 +1,20 @@
+html.color-theme-in-transition,
+html.color-theme-in-transition *,
+html.color-theme-in-transition *:before,
+html.color-theme-in-transition *:after {
+	transition: all 750ms !important;
+	transition-delay: 0 !important;
+}
+
+/* yellow theme */
+html {
+	--baseColor: rgba(50, 30, 0, 0.8);
+	--operatorBackground: #ff9f0c;
+}
+
+/* red theme*/
+html[data-theme="red"] {
+	--baseColor: rgba(0, 0, 0, 0.5);
+	--operatorBackground: #cc0000;
+}
+
