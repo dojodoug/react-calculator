@@ -15,6 +15,6 @@ The calculator was built using React. I chose React because I have been eager to
 
 ## Current Status and To Dos
 
-View the project live: [React Calculator](https://doug-react-calculator.herokuapp.com/)\
+View the project live: [React Calculator](https://doug-react-calculator.herokuapp.com/)
 
 The styling for the calculator has been completed, as well as, the ability to switch between the two themes. The user is also able to interact with all of the buttons and the event handlers are in place. When I have more time to work on this project there are a few issues that I discovered that need some additional work. A few of the event handlers, the calculation logic, and the calculator display needs to be fine tuned and/or expanded upon to eliminate the issues at hand.
