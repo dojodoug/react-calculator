@@ -73,13 +73,20 @@ export default class App extends React.Component {
 
 	showResults() {
 		const { displayValue } = this.state;
-		let result = math.evaluate(displayValue) 
+		let result = math.evaluate(displayValue); 
 		if (result % 1 !== 0) {
 			result = parseFloat(Math.round(result * 100) / 100).toFixed(2);
 		}
 		this.setState({
 			displayValue: result
 		});
+		/* For now resetting the displayValue using setTimeout until I have more
+		   time to correctly reset the displayValue after the calculation */
+		setTimeout(function(){
+             this.setState({
+             	displayValue: "0"
+             });
+        }.bind(this),3000);
 	}
 
 	toggleTheme() {
